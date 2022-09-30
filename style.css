@@ -70,3 +70,22 @@ body {
   cursor: pointer;
   user-select: none;
 }
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+#epicode-student {
+  font-size: 0.7em;
+  font-weight: 300;
+}
+
+#future-dev {
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+#my-name {
+  font-size: 1.3em;
+}
