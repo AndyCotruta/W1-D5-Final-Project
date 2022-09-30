@@ -89,3 +89,137 @@ h1 {
 #my-name {
   font-size: 1.3em;
 }
+
+#description-picture {
+  position: relative;
+  background-color: #f7f8f8;
+  height: 650px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#description-picture img {
+  display: block;
+  width: 400px;
+  height: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  object-fit: cover;
+  border-radius: 300px;
+  box-shadow: 4px 6px 8px grey;
+}
+
+#picture-quote {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  color: grey;
+  font-size: 0.7em;
+  font-weight: 300;
+}
+
+#picture-quote-text {
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  margin-top: 20px;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: black;
+}
+
+#picture-contact {
+  position: absolute;
+  left: 20px;
+  bottom: 350px;
+  color: grey;
+  font-size: 0.7em;
+  font-weight: 300;
+}
+
+#picture-contact-text {
+  position: absolute;
+  bottom: 270px;
+  left: 20px;
+  margin-top: 20px;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: black;
+}
+
+#picture-services {
+  position: absolute;
+  left: 20px;
+  bottom: 200px;
+  color: grey;
+  font-size: 0.7em;
+  font-weight: 300;
+}
+
+#picture-services-text {
+  position: absolute;
+  bottom: 120px;
+  left: 20px;
+  margin-top: 20px;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: black;
+}
+
+#picture-projects {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  color: grey;
+  font-size: 0.7em;
+  font-weight: 300;
+}
+
+#picture-projects-text {
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  margin-top: 20px;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: black;
+}
+
+#picture-clients {
+  position: absolute;
+  right: 20px;
+  bottom: 350px;
+  color: grey;
+  font-size: 0.7em;
+  font-weight: 300;
+}
+
+#picture-clients-text {
+  position: absolute;
+  bottom: 300px;
+  right: 20px;
+  margin-top: 20px;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: black;
+}
+
+#picture-experience {
+  position: absolute;
+  right: 20px;
+  bottom: 200px;
+  color: grey;
+  font-size: 0.7em;
+  font-weight: 300;
+}
+
+#picture-experience-text {
+  position: absolute;
+  bottom: 150px;
+  right: 20px;
+  margin-top: 20px;
+  font-size: 0.9em;
+  font-weight: 400;
+  color: black;
+}
