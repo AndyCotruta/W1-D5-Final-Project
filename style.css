@@ -223,3 +223,37 @@ h1 {
   font-weight: 400;
   color: black;
 }
+
+.division-line {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+
+.full-stack-developer p {
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.full-stack-developer img {
+  display: inline-block;
+  width: 150px;
+  height: 200px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-bottom: 40px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 4px 6px 8px grey;
+  filter: saturate(0);
+  transition: filter 0.5s ease-in-out;
+}
+
+.full-stack-developer-images:hover {
+  filter: saturate(1);
+}
